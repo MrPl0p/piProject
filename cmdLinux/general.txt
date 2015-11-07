@@ -1,0 +1,11 @@
+#####################################
+	General Linux Command
+####################################
+
+- Install package
+	1) > sudo apt-get install <package_name>
+
+- Desinstall package
+	1) > sudo apt_get remove --purge <package_name>
+	2) > sudo apt-get clean
+
