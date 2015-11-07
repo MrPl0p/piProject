@@ -4,27 +4,30 @@
 
 - New repository creation (server)
 	1) Change directory to which you will serve as repository
-	2) >git init
+	2) > git init
 
 - I create a public repository https://github.com/MrPl0p/piProject
 	
 - Clone the repository (client)
 	1) Change directory to which you will where you want to clone the repository
-	2) >git clone ssh://user@host/path_to_repo_from_root
-		Example : >git clone https://github.com/MrPl0p/piProject
+	2) > git clone ssh://user@host/path_to_repo_from_root
+		Example : > git clone https://github.com/MrPl0p/piProject
 
 - Commit changes 
-	If new files or folders created, add tracking to it before commit 
-	1) >git add 'file_name_or_folder_name'
+	Before to commit, please check changes with >git status
+	1) >git status
+	Add files/folders to the commit transaction
+	2) >git add 'file_name_or_folder_name'
 		Example : In case of creating a new folder : cmdLinux, 
-			>git add cmdLinux
-	2) >git commit	 
-	2) >git push
+			> git add cmdLinux
+			You can add the root folder to commit all
+			> git add ./
+	Commit transaction
+	3) > git commit	 
+	Push to the repository
+	4) > git push
 
 - Get change
-	1) >git pull
+	1) > git pull
 
-- git commit
-- git checkout
-- git status
-- git branch
+
