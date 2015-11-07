@@ -9,3 +9,4 @@
 	1) > sudo apt-get remove --purge <package_name>
 	2) > sudo apt-get clean
 
+-
